@@ -7,12 +7,13 @@
 # If you don't use check point file:
 # ./calculator.sh FMN.gjk
 
-source /data/group1/z44550r/FMN/log/env.sh
+source /data/group1/z44550r/FMN/scripts/env.sh
 
 gjk=$1
 step_name=$(basename $gjk| sed 's/\.[^\.]*$//')
 work_dir=$SYSTEM_PREFIX/output/$step_name
-if [ ! -e $work_dir];then
+if [ ! -e $work_dir ]
+then
   mkdir -p $work_dir
 else
   echo "Working directory ${work_dir} exists. Terminated"

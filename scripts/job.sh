@@ -19,9 +19,8 @@ source /data/group1/z44550r/FMN/scripts/env.sh
 calculator=$SYSTEM_PREFIX/scripts/calculator.sh
 
 # Write calculation(s)
-step1=first
-step2=second
-
+step1=HF_dp_1
+step2=B3LYP_dp_1
 cd $SYSTEM_PREFIX
 $calculator input/${step1}.gjk
 $calculator input/${step2}.gjk output/${step1}/${SYSTEM_NAME}.chk
