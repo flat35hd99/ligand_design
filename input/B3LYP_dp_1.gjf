@@ -1,6 +1,6 @@
 %chk=FMN.chk
 #nprocshared=20
-##mem=80GB
+##mem=75GB
 #p opt b3lyp/6-31g(d,p) pop=mk iop(6/50=1) geom=check guess=read
 
 FMN of YtvA (2PR5)
