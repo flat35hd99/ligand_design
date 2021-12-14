@@ -1,6 +1,6 @@
 %chk=FMN.chk
-#nprocshared=20
-#mem=75GB
+%mem=80GB
+%nprocshared=20
 #p opt HF/6-31g(d,p)
 
 FMN of YtvA (2PR5)
