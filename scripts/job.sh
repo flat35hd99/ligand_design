@@ -4,7 +4,7 @@
 #PJM -L "elapse=168:00:00"
 #PJM -j
 #PJM -S
-#PJM -N "flavin_second_step"
+#PJM -N "FMN"
 #PJM --mail-list "flat35hd99@gmail.com"
 #PJM -m e
 #PJM "--norestart"
@@ -16,9 +16,10 @@ module load gaussian16/c01
 set -xeu
 source $(dirname $0)/env.sh
 
-calculator=$(dirname $0)/calculator.sh
+calculator=$SYSTE_PREFIX/scripts/calculator.sh
 
 # Write calculation(s)
 cd $SYSTEM_PREFIX
 calculator input/first.gjk
 calculator input/second.gjk output/${SYSTEM_NAME}.chk
+

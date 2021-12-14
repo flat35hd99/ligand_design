@@ -1,2 +1,2 @@
-export SYSTEM_PREFIX="/mnt/c/Users/tb/product/ligand_design"
+export SYSTEM_PREFIX="/data/group1/z44550r/FMN"
 export SYSTEM_NAME="FMN"
