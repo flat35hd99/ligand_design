@@ -14,12 +14,15 @@ module load gaussian16/c01
 . $g16root/g16/bsd/g16.profile
 
 set -xeu
-source $(dirname $0)/env.sh
+source /data/group1/z44550r/FMN/scripts/env.sh
 
-calculator=$SYSTE_PREFIX/scripts/calculator.sh
+calculator=$SYSTEM_PREFIX/scripts/calculator.sh
 
 # Write calculation(s)
+step1=first
+step2=second
+
 cd $SYSTEM_PREFIX
-calculator input/first.gjk
-calculator input/second.gjk output/${SYSTEM_NAME}.chk
+$calculator input/${step1}.gjk
+$calculator input/${step2}.gjk output/${step1}/${SYSTEM_NAME}.chk
 

@@ -7,7 +7,7 @@
 # If you don't use check point file:
 # ./calculator.sh FMN.gjk
 
-source $(dirname $0)/env.sh
+source /data/group1/z44550r/FMN/log/env.sh
 
 gjk=$1
 step_name=$(basename $gjk| sed 's/\.[^\.]*$//')
