@@ -1,7 +1,8 @@
 %chk=FMN.chk
-#p opt=(tight) b3lyp/6-31g(d,p) pop=mk iop(6/33=2,6/41=10,6/42=17)
+#p b3lyp/6-31g(d,p) pop=mk iop(6/50=1) geom=check guess=read
 
 FMN of YtvA (2PR5)
 
 -2 1
 
+FMN.esp
