@@ -22,6 +22,6 @@ calculator=$SYSTEM_PREFIX/scripts/calculator.sh
 step1=HF_dp_1
 step2=B3LYP_dp_1
 cd $SYSTEM_PREFIX
-$calculator input/${step1}.gjk
-$calculator input/${step2}.gjk output/${step1}/${SYSTEM_NAME}.chk
+$calculator $SYSTEM_PREFIX/input/${step1}.gjf
+$calculator $SYSTEM_PREFIX/input/${step2}.gjf $SYSTEM_PREFIX/output/${step1}/${SYSTEM_NAME}.chk
 
