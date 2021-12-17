@@ -12,6 +12,7 @@
 |5|HF_dp_2.gjf|opt HF/6-31g(d,p)|Recalculation by adding two hydrogens to oxygens of phosphoric acid group|
 |6|B3LYP_dp_4.gjf|opt b3lyp/6-31g(d,p) pop=(mk,saveesp)||
 |7|B3LYP_dp_5.gjf|b3lyp/6-31g(d,p) pop=mk iop(6/42=6,6/50=1)||
+|8|B3LYP_dp_6.gjf|opt B3LYP/6-31g(d,p) pop=(mk,saveesp)|Use only B3LYP, without HF|
 
 ## Process
 
