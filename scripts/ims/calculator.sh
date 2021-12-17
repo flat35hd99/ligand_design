@@ -7,8 +7,6 @@
 # If you don't use check point file:
 # ./calculator.sh FMN.gjk
 
-source /data/group1/z44550r/FMN/scripts/env.sh
-
 gjk=$1
 step_name=$(basename $gjk| sed 's/\.[^\.]*$//')
 work_dir=$SYSTEM_PREFIX/output/$step_name
@@ -31,4 +29,3 @@ mkdir -p $GAUSS_SCRDIR
 
 cd $work_dir
 g16 < $SYSTEM_NAME.gjk > $step_name.log
-
