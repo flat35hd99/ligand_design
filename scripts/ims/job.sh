@@ -5,7 +5,7 @@
 module load gaussian/g16/c01
 
 set -xeu
-source $HOME/flat/env.sh
+source $HOME/flat/lov/ytva/dark/FMN/scripts/ims/env.sh
 
 calculator=$SYSTEM_PREFIX/scripts/ims/calculator.sh
 
