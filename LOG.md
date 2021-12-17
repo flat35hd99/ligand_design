@@ -8,6 +8,10 @@
 |1|HF_dp_1.gjf|HF/6-31(d,p)|The first step to optimize structure.|
 |2|B3LYP_dp_1.gjf|B3LYP/6-31(d,p) pop=(mk,saveesp)|The second step to optimize structure more acculately and obtain ESP charge in chk file|
 |3|B3LYP_dp_2.gjf|B3LYP/6-31(d,p) iop=(6/42=6,6/50=1) pop=(mk)|The third step only to obtain ESP charge as a single file for antechamber|
+|4|B3LYP_dp_3.gjf|b3lyp/6-31g(d,p) pop=(nbo,savenbo)|The forth step only to obtain bond order|
+|5|HF_dp_2.gjf|opt HF/6-31g(d,p)|Recalculation by adding two hydrogens to oxygens of phosphoric acid group|
+|6|B3LYP_dp_4.gjf|opt b3lyp/6-31g(d,p) pop=(mk,saveesp)||
+|7|B3LYP_dp_5.gjf|b3lyp/6-31g(d,p) pop=mk iop(6/42=6,6/50=1)||
 
 ## Process
 
