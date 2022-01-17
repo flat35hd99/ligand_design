@@ -1,0 +1,11 @@
+%chk=FMN.chk
+%mem=70GB
+%nprocshared=16
+#p b3lyp/6-31g(d,p) pop=mk geom=check guess=read iop(6/42=6,6/50=1)
+
+FMN of YtvA (2PR5)
+
+0 1
+
+FMN.esp
+
