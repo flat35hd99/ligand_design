@@ -1,0 +1,9 @@
+%chk=FMN.chk
+%mem=75GB
+%nprocshared=20
+#p opt b3lyp/6-31g(d,p) pop=(mk,saveesp) geom=check guess=read scrf=(solvent=water,read)
+
+FMN of YtvA (2PR5)
+
+0 1
+
