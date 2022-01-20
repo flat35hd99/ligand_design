@@ -1,2 +1,2 @@
-export SYSTEM_PREFIX="/data/group1/z44550r/FMN"
+export SYSTEM_PREFIX=$YTVA_DARK_PREFIX/FMN
 export SYSTEM_NAME="FMN"
