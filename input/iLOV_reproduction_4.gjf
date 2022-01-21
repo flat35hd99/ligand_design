@@ -1,7 +1,7 @@
 %chk=FMN.chk
 %mem=70GB
 %nprocshared=20
-#p opt B3LYP/6-31g(d) scrf=(solvent=water)
+#p opt B3LYP/6-31g(d) g09defaults
 
 FMN of YtvA (2PR5)
 
