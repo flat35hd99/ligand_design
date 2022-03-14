@@ -7,7 +7,7 @@
 # If you don't use check point file:
 # ./calculator.sh FMN.gjk
 
-source $YTVA_DARK_PREFIX/FMN/scripts/env.sh
+source $YTVA_DARK_PROTONATED_PREFIX/FMN/scripts/env.sh
 
 gjk=$1
 step_name=$(basename $gjk| sed 's/\.[^\.]*$//')

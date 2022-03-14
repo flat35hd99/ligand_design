@@ -14,7 +14,7 @@ module load gaussian16/c01
 . $g16root/g16/bsd/g16.profile
 
 set -xeu
-source $YTVA_DARK_PREFIX/FMN/scripts/env.sh
+source $YTVA_DARK_PROTONATED_PREFIX/FMN/scripts/env.sh
 
 calculator=$SYSTEM_PREFIX/scripts/calculator.sh
 
