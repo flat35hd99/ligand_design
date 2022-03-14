@@ -19,10 +19,10 @@ source $YTVA_DARK_PREFIX/FMN/scripts/env.sh
 calculator=$SYSTEM_PREFIX/scripts/calculator.sh
 
 # Write calculation(s)
-step1=B3LYP_dp_17
-step2=B3LYP_dp_18
-step3=B3LYP_dp_19
+step1=HF_dp_2.gjf
+step2=B3LYP_dp_4.gjf
+step3=B3LYP_dp_5.gjf
 cd $SYSTEM_PREFIX
-# $calculator $SYSTEM_PREFIX/input/${step1}.gjf
+$calculator $SYSTEM_PREFIX/input/${step1}.gjf
 $calculator $SYSTEM_PREFIX/input/${step2}.gjf $SYSTEM_PREFIX/output/${step1}/${SYSTEM_NAME}.chk
 $calculator $SYSTEM_PREFIX/input/${step3}.gjf $SYSTEM_PREFIX/output/${step2}/${SYSTEM_NAME}.chk
